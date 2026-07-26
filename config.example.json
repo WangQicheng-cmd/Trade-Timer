@@ -1,0 +1,29 @@
+{
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "model": "deepseek-r1",
+    "timeout": 120
+  },
+  "market": {
+    "poll_interval_seconds": 10,
+    "binance_url": "https://api.binance.com",
+    "okx_url": "https://www.okx.com",
+    "huobi_url": "https://api.huobi.pro",
+    "proxy": ""
+  },
+  "web3": {
+    "chain_id": 1,
+    "rpc_url": "https://eth.llamarpc.com",
+    "fee_wallet_address": "0xB4b9a2DcdcCf91713E8bCE68BD436Fa8062Db6A6",
+    "fee_splitter_address": "",
+    "fee_percent": 0.002,
+    "slippage_tolerance": 0.005,
+    "dex_router_address": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
+  },
+  "database": {
+    "path": "./data/tasks.db"
+  },
+  "scheduler": {
+    "check_interval_seconds": 5
+  }
+}
